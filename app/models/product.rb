@@ -6,4 +6,7 @@ class Product < ApplicationRecord
   def total
     price + tax
   end
+
+  has_many :orders
+  has_many :carted_products
 end

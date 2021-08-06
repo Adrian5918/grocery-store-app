@@ -5,7 +5,6 @@ class CreateCartedProducts < ActiveRecord::Migration[6.1]
       t.integer :quantity
       t.integer :user_id
       t.integer :order_id
-
       t.timestamps
     end
   end

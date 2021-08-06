@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+# rubocop:disable Metrics/BlockLength
 ActiveRecord::Schema.define(version: 2021_07_30_013003) do
 
   # These are extensions that must be enabled in order to support this database
@@ -67,3 +68,4 @@ ActiveRecord::Schema.define(version: 2021_07_30_013003) do
   end
 
 end
+# rubocop:enable Metrics/BlockLength
