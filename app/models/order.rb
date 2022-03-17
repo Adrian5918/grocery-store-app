@@ -1,6 +1,6 @@
 class Order < ApplicationRecord
   belongs_to :user
-  has_many :product_carts
+  has_many :carted_products
 
 
   def tax
